@@ -247,7 +247,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(Sender_Email, Password)
     smtp.send_message(newMessage)
 
-print("\t\t\t\n======================= Mail Successfully Sended ==================================\n")
+print("\t\t\t\n======================= Mail Successfully Sent ==================================\n")
 
 import pywhatkit as kit
 
